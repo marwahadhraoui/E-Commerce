@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1699481731 source:c:\users\marwa\onedrive\desktop\enicar\projet c-yaiech\e-commerce_project\main.c
+	<stdio.h>
+	<stdlib.h>
+	"e-commerce.h"
+
+1699479875 c:\users\marwa\onedrive\desktop\enicar\projet c-yaiech\e-commerce_project\e-commerce.h
+
+1699481721 source:c:\users\marwa\onedrive\desktop\enicar\projet c-yaiech\e-commerce_project\functions.c
+	<stdio.h>
+	"e-commerce.h"
+	<stdbool.h>
+
