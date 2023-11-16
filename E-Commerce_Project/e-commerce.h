@@ -30,9 +30,14 @@ typedef struct user USER;
 
 //Définition des fonctions
 
- int  fillUser(USER*,ITEM T[],int length);
- int  fillOrdre(ORDER*,ITEM T[],int length);
+ void  fillUser(USER*,ITEM*,int length,int result[]);
+ void  fillOrdre(ORDER*,ITEM*,int length,int result[]);
  void fillItem(ITEM*);
  void displayUser(USER user);
  void displayOrder(ORDER order);
- int bestSellingProduct(int t[],ITEM TItem[]);
+ int getMaxProductPerUser(int t[],ITEM TItem[],int result[]);
+ void bestSellingProduct(int results[][100], int length,ITEM TItem[]);
+ float getPriceAfterPromotion (USER userTable[],int length, int id ,int pourcentage);
+ int findTopBuyingClient(USER tabUser[],int length);
+ void listUserProducts(USER userTable[],int length, int id);
+ int findMostExpensiveProduct(ITEM* ,int length);
